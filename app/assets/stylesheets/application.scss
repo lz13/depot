@@ -12,24 +12,6 @@
  * precedence over styles defined in any other CSS/SCSS files in this 
  * directoty. Styles in this file should be added after the last require_*
  * statement. It is generally better to create a new file per style scope.
-=======
- * This is a manifest file that'll be compiled into application.css,       
- *  which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets,    
- * or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a      
- * relative path.
- *
- * You're free to add application-wide styles to this file and they'll     
- * appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles    
- * defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after      
- * the last require_* statement.
- * It is generally better to create a new file per style scope.
->>>>>>> shopping-cart
  *
  *= require_tree .
  *= require_self
@@ -103,5 +85,31 @@ header.main {
   
   main {
     padding: 0.5em;
+  }
+}
+
+.notice, #notice {
+  background: #ffb;
+  border-radius: 0.5em;
+  border: solid 0.177em#882;
+  color: #882;
+  font-weight: bold;
+  margin-bottom: 1em;
+  padding: 1em 1.414em;
+  text-align: center;
+}
+
+#cart {
+  article {
+    h2 {
+	  margin-top: 0;
+	}
+	background: white;
+	border-radius: 0.5em;
+	margin: 1em;
+	padding: 1.414em;
+	@media (min-width: 30em) {
+	  margin: 0; // desktop doesn't need this mafgin
+	}
   }
 }
