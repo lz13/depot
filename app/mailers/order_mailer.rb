@@ -1,5 +1,5 @@
 class OrderMailer < ApplicationMailer
-  default from: 'Empujador de Casos <empujadordecasos@gmail.com>'
+  default from: ENV["GMAIL_USERNAME"]
 
   # Subject can be set in your I18n file at config/locales/en.yml
   # with the following lookup:
