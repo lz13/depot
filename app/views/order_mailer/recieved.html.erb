@@ -1,5 +1,15 @@
-<h1>Order#recieved</h1>
+<h3>Dear <%= @order.name %></h3>
+<p>
+	Thank you for your recent order from The Pragmatic Store.
+	
+	You ordered the following items:
+</p>
+
+<table>
+	<tr><th colspan="2">Qty</th><th>Description</th></tr>
+	<%= render @order.line_items -%>
+</table>
 
 <p>
-  <%= @greeting %>, find me in app/views/order_mailer/recieved.html.erb
+	We'll send you a separate email when your order ships.
 </p>
