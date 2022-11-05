@@ -11,3 +11,9 @@ two:
   address: MyText
   email: MyString
   pay_type: 1
+
+three:
+  name: Sam Ruby
+  address: MyText
+  email: depot@example.com
+  
