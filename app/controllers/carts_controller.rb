@@ -1,4 +1,5 @@
 class CartsController < ApplicationController
+  skip_before_action :authorize, only: [:create, :update, :destroy]
   before_action :set_cart, only: [:show, :edit, :update, :destroy]
   rescue_from ActiveRecord::RecordNotFound, with: :invalid_cart
 
@@ -55,6 +56,7 @@ class CartsController < ApplicationController
     
     # za debuggiranje:
     # require "pry"; binding.pry
+    
     
     # @cart.destroy if @cart.id == session[:cart_id]
     # session[:cart_id] = nil
