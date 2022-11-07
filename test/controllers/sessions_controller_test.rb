@@ -2,10 +2,10 @@ require 'test_helper'
 
 class SessionsControllerTest < ActionDispatch::IntegrationTest
   
-#  test "should prompt for login" do
-#    get login_url                     !!! Test is failing here!!!
-#    assert_response :success
-#  end
+  test "should prompt for login" do
+    get login_url
+    assert_response :success
+  end
   
   test "should login" do
     dave = users(:one)
