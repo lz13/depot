@@ -55,7 +55,7 @@ en:
     currency:
       format:
         unit: "$"
-        precision: "2"
+        #precision: "2"
         separator: "."
         delimiter: ","
         format: "%u%n"
