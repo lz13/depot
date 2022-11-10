@@ -23,7 +23,7 @@ es:
     currency:
       format:
         unit: "$US"
-        precision: "2"
+        precision: "8"
         separator: ","
         delimiter: "."
         format: "%n&nbsp;%u"
