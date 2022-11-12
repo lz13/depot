@@ -8,14 +8,13 @@ Bundler.require(*Rails.groups)
 
 module Depot
   class Application < Rails::Application
+    
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.0
     
     config.filter_parameters += [ :credit_card_number ]
 
-    # Settings in config/environments/* take precedence over those specified here.
-    # Application configuration can go into files in config/initializers
-    # -- all .rb files in that directory are automatically loaded after loading
-    # the framework and any gems in your application.
+    # config.middleware.use I18n::JS::Middleware
+    # config.middleware.use SimplesIdeias::I18n::Middleware
   end
 end
