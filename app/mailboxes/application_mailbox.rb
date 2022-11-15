@@ -1,3 +1,3 @@
 class ApplicationMailbox < ActionMailbox::Base
-  routing :all => :support
+  routing "support@example.com" => :support
 end
