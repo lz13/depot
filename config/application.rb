@@ -13,6 +13,10 @@ module Depot
     
     config.filter_parameters += [ :credit_card_number ]
 
+    # Include files in the ./lib directory in the load path 
+    # to resolve require statements
+    config.autoload_paths += %W(#{Rails.root}/lib)
+
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration can go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded after loading
