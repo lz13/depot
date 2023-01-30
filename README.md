@@ -10,7 +10,7 @@ application up and running.
 
 $ git clone https://github.com/lz13/depot.git
 
-$ cd /depot
+$ cd depot
 
 $ rails s
 
