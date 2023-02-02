@@ -28,5 +28,10 @@ For more information, see the [*Agile Web Development with Rails 6* book](https:
 ruby -v 
 ruby 2.6.5p114 (2019-10-01 revision 67812) [x86_64-darwin21]
 ```
+## Rails version
+```
+rails -v
+Rails 6.0.1
+```
 ## Ackgnowledgements
 - Credit to [Sam Ruby](https://en.wikipedia.org/wiki/Sam_Ruby), [David Bryant Copeland](https://naildrivin5.com/) and [Dave Thomas](https://en.wikipedia.org/wiki/Dave_Thomas_(programmer)).
