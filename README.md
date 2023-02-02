@@ -34,4 +34,4 @@ rails -v
 Rails 6.0.1
 ```
 ## Ackgnowledgements
-- Credit to [Sam Ruby](https://en.wikipedia.org/wiki/Sam_Ruby), [David Bryant Copeland](https://naildrivin5.com/) and [Dave Thomas](https://en.wikipedia.org/wiki/Dave_Thomas_(programmer)).
+- Credit, and many thanks to [Sam Ruby](https://en.wikipedia.org/wiki/Sam_Ruby), [David Bryant Copeland](https://naildrivin5.com/) and [Dave Thomas](https://en.wikipedia.org/wiki/Dave_Thomas_(programmer)).
